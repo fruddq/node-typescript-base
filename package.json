@@ -1,0 +1,24 @@
+{
+  "name": "big2backend",
+  "version": "1.0.0",
+  "private": true,
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc -p ./tsconfig.json",
+    "dev": "nodemon ./src/main.ts"
+  },
+  "keywords": [],
+  "author": "Frudd",
+  "license": "Unlincensed",
+  "type": "module",
+  "devDependencies": {
+    "@tsconfig/node18-strictest-esm": "^1.0.1",
+    "@types/node": "^18.11.18",
+    "nodemon": "^2.0.20",
+    "rome": "^11.0.0",
+    "ts-node": "^10.9.1",
+    "tslib": "^2.4.1",
+    "typescript": "^4.9.4"
+  }
+}
